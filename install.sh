@@ -6,6 +6,6 @@ set -e
 echo "alias e='exit'" >>~/.bash_aliases
 
 # Setup git
-git config --global aliases.st status
-git config --global aliases.co commit
-git config --global aliases.ch checkout
+git config --global alias.st status
+git config --global alias.co commit
+git config --global alias.ch checkout
